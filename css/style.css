@@ -1,0 +1,249 @@
+body{
+font:12px Verdana;
+}	
+.wrapper{
+width:100%;
+border: 1px solid #004366;
+}
+header{
+	padding: 0px;
+	width: 100%;
+	height: 85px;
+	background: #004366;
+}
+	.logo{
+
+		width: 30%;
+		height: 40px;
+		padding: 7px;
+		float: left;
+	}
+	.banner{
+		width: 68%;
+		float: right;
+	}
+		.bsc-selection{
+		float: right;
+		padding: 0px;
+		}
+	nav{
+		float: right;
+		padding: 5px;
+	}		
+
+.top-portion{
+	float:left;
+	width: 100%;
+	
+}
+	.top_table{
+	float: left;
+	padding: 0px 50px 10px 50px;
+	}
+	.top_table2{
+	width: 500px;
+	float: left;
+	padding: 0px 50px 10px 50px;
+	
+	}
+	
+.dash-table1{
+padding: 10px;
+}	
+	
+.dash-table{
+	padding: 10px;
+	float: left;
+}
+
+.dash-table #th1{
+	background: #8010A2; 
+	padding: 5px; 
+	border-radius: 18px 18px 5PX 5px; 
+	font-size: 20px;
+	color: #fff;
+}
+
+.dash-table #th2{
+	background: #91C910; 
+	height: 15px; 
+	padding: 15px; 
+	border-radius: 3px 3px 12PX 12px; 
+	font-size: 20px;
+}
+.dash-table #th2:hover{
+	background: maroon;
+	font-color: #fff;
+}
+
+.dash-table #th3{
+	background: #17520D; 
+	padding: 5px; 
+	border-radius: 18px 18px 5PX 5px; 
+	font-size: 20px;
+	color: #fff;
+}
+
+/* Code for Button */
+    .myButton {
+        
+        -moz-box-shadow:inset 0px 1px 0px 0px #e184f3;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #e184f3;
+        box-shadow:inset 0px 1px 0px 0px #e184f3;
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c123de), color-stop(1, #a20dbd));
+        background:-moz-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+        background:-webkit-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+        background:-o-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+        background:-ms-linear-gradient(top, #c123de 5%, #a20dbd 100%);
+        background:linear-gradient(to bottom, #c123de 5%, #a20dbd 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c123de', endColorstr='#a20dbd',GradientType=0);
+        
+        background-color:#c123de;
+        
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        
+        border:1px solid #a511c0;
+        
+        display:inline-block;
+        color:#ffffff;
+        font-family:Verdana;
+        font-size:12px;
+        font-weight:bold;
+        padding:6px 10px;
+        text-decoration:none;
+        
+        text-shadow:0px 1px 0px #9b14b3;
+        
+    }
+    .myButton:hover {
+        
+        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #a20dbd), color-stop(1, #c123de));
+        background:-moz-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+        background:-webkit-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+        background:-o-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+        background:-ms-linear-gradient(top, #a20dbd 5%, #c123de 100%);
+        background:linear-gradient(to bottom, #a20dbd 5%, #c123de 100%);
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a20dbd', endColorstr='#c123de',GradientType=0);
+        font-size: 13px;
+        background-color:#a20dbd;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+/* End of button styling */
+
+
+
+/* for collapsible panel */
+
+/* panel */
+.panel, .panelcollapsed 
+{
+	background: #eee;
+	margin: 5px 0px 5px 0px;
+	padding: 0px;
+	width: 100%;
+	border: 1px solid #004366;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+/* panel heading */
+.panel h2, .panelcollapsed h2 
+{
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0px;
+	padding: 4px;
+	background: #CCC url(arrow-up.gif) no-repeat 280px;
+	border-bottom: 1px solid #999;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-top: 1px solid #FFF;
+	border-right: 1px solid #FFF;
+	border-left: 1px solid #FFF;
+}
+
+/* panel heading on rollover */
+.panel h2:hover, .panelcollapsed h2:hover { background-color: #A9BCEF; }
+
+/* heading of a collapsed panel */
+.panelcollapsed h2 
+{
+	background: #CCC url(arrow-dn.gif) no-repeat 280px;
+	border-color: #CCC;
+}
+
+/* panel content - do not set borders or paddings */
+.panelcontent 
+{ 
+	background: #EEE; 
+	overflow: hidden;
+}
+
+/* collapsed panel content */
+.panelcollapsed .panelcontent { display: none; }
+
+
+/* for tabbed */
+/*
+body{
+color: #333;
+font-size: 11px;
+font-family: verdana;
+}
+*/
+a{
+color: #fff;
+text-decoration: none;
+}
+a:hover{
+color: #DFE44F;
+}
+p{
+margin: 0;
+padding: 5px;
+line-height: 1.5em;
+text-align: justify;
+border: 1px solid #73A405;
+}
+#wrapper{
+width: 100%px;
+margin: 0 auto;
+}
+.box{
+background: #fff;
+}
+.div{
+background: #fff;
+}
+.boxholder{
+clear: both;
+padding: 5px;
+background: #004366;
+}
+#boxholder1{
+clear: both;
+padding: 5px;
+background: #004366;
+}
+.tab{
+float: left;
+height: 32px;
+width: 150px;
+margin: 0 1px 0 0;
+text-align: center;
+
+}
+.tabtxt{
+width: 140px;
+margin: 0;
+color: #fff;
+font-size: 12px;
+font-weight: bold;
+padding: 9px 0 0 0;
+}

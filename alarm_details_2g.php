@@ -1,10 +1,10 @@
 <?php
 		session_start();
 
-		$host = 'localhost';
-		$username = 'root';
+		$host = '';
+		$username = '';
 		$password = '';
-		$db = 'aska_db_test';
+		$db = '';
 		$res = mysql_connect($host, $username, $password);
 		
 		if (!$res) die('Could not connect to the server, mysql error: '.mysql_error($res));
@@ -25,7 +25,7 @@
 <!DOCTYPE HTML>
 <head>
 	<meta charset="utf-8"/>
-	<title>ASKA | Arafat's Smart KPI Analyzer</title>	
+	<title>Smart KPI Analyzer</title>	
 	<script language="javascript" type="text/javascript" src="tablefilter.js"></script>		
 	<link rel='stylesheet' type='text/css' href='style.css'/>
 	
